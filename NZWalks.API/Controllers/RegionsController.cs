@@ -45,11 +45,6 @@ namespace NZWalks.API.Controllers
                   RegionImageUrl = "https://www.pexels.com/photo/red-rocks-new-zealand-17831396/"
                }
             };
-
-
-         //INSERT INTO  Regions
-         //([Id], [Code], [Name], [RegionImageUrl])
-         //values ('d164ca1d-deb7-4a77-86c5-fb9a7148c835', 'AKL', 'Auckland', 'image.jpg')
           */
 
          // Get Data From Database - Domain models
