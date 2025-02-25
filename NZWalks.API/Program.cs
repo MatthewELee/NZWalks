@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<NZWalksDbContext>(options=>
 options.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksConnectionString")));
 
-builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
+builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>(); //InMemoryRegionRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
