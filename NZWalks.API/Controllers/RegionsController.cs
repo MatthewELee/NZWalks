@@ -117,7 +117,7 @@ namespace NZWalks.API.Controllers
             RegionImageUrl = addRegionRequestDto.RegionImageUrl
          };*/
 
-         var regionDomainModel = mapper.Map<AddRegionRequestDto>(addRegionRequestDto);
+         var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
 
          // Use Domain Model to create Region
          regionDomainModel = await regionRepository.CreateAsync(regionDomainModel);
