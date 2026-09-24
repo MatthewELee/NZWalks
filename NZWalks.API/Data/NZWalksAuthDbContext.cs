@@ -15,8 +15,8 @@ namespace NZWalks.API.Data
         {
             base.OnModelCreating(builder);
 
-            var readerRoleId = Guid.NewGuid().ToString();
-            var writerRoleId = Guid.NewGuid().ToString();
+            var readerRoleId = "b1a1c9e0-1111-4a2b-8c3d-000000000001"; ;
+            var writerRoleId = "b1a1c9e0-1111-4a2b-8c3d-000000000002"; ;
 
             var roles = new List<IdentityRole> {
                 new IdentityRole
